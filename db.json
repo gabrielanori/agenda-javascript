@@ -1,0 +1,49 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Leonardo Souza",
+      "email": "leonardo.souza@caelum.com.br"
+    },
+    {
+      "id": 2,
+      "name": "Davi Luiz",
+      "email": "davi.luiz@caelum.com.br"
+    },
+    {
+      "id": 3,
+      "name": "Leonardo Gregui",
+      "email": "leonardo.gregui@caelum.com.br"
+    },
+    {
+      "name": "Gabriela Ebisui Nori",
+      "email": "gabriela.usp@gmail.com",
+      "phone": "11986514522",
+      "id": 4
+    },
+    {
+      "name": "Paulo Siqueira",
+      "email": "paulo@gmail.com",
+      "phone": "1198651111",
+      "id": 5
+    },
+    {
+      "name": "CASSIO MURILO DOS SANTOS",
+      "email": "murilo_bass@hotmail.com",
+      "phone": "11983225294",
+      "id": 6
+    },
+    {
+      "name": "Hisa Ebisui",
+      "email": "hisa@uol.com",
+      "phone": "11982118976",
+      "id": 7
+    },
+    {
+      "name": "Walter Plinio",
+      "email": "wal@uol.com.br",
+      "phone": "11987766543",
+      "id": 8
+    }
+  ]
+}
