@@ -21,7 +21,7 @@
     let data = {};
 
     ui.fields.forEach(function (field) {
-      // console.log("campo:", field.value, field.value.length, field.value === "");
+      console.log("campo:", field.value, field.value.length, field.value === "");
 
       if (field.value.length === 0) {
         console.log(field.id, "não preencheu - erro");
@@ -33,7 +33,7 @@
         data[field.id] = field.value.trim();
       }
     });
-    // console.log("=>", errors, data);
+    console.log("=>", errors, data);
 
     if (errors === 0) {
       addContact(data);
@@ -55,8 +55,6 @@
     };
     //Promise API -> Fetch API garante q vai ter uma resposta
 
-  
-
     fetch(endpoint, config)
       .then(getContacts)
       .catch(function() { console.log("deu ruim", arguments)});
@@ -77,6 +75,7 @@
   const getContacts = function () {
      console.log("getting...");
 
+    const endpoint = "http://localhost:3004/contacts";
     const config = {
       method: "GET",
      // body: JSON.stringify(contact),
